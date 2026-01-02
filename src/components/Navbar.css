@@ -29,21 +29,21 @@
 }
 
 .item-login a {
-    color: #FFF;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .item-login a:hover {
-    color: #054553;
+    color: #ffffff;
 }
 
 .item a {
-    color: #FFF;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .item a:hover {
-    color: #054553;
+    color: #9c9c9c;
 }
