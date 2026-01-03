@@ -13,7 +13,6 @@ export default function Admin() {
     <div className="admin-container">
       <div className="admin-header">
         <h2>Gerenciar Presentes</h2>
-        <p>Clique em um presente para alterar seu status</p>
       </div>
 
       <div className="admin-presentes">

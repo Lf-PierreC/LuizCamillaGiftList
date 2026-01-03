@@ -14,15 +14,15 @@
 
 .admin-header h2 {
   margin: 0 0 10px 0;
-  color: white;
-  font-family: "Cormorant SC", serif;
+  color: rgb(0, 0, 0);
+  font-family: "Cormorant Garamond", serif;
   font-size: 2.5em;
   font-weight: 200;
 }
 
 .admin-header p {
   margin: 0;
-  color: #939393;
+  color: #000000;
   font-size: 1.1em;
 }
 
@@ -66,7 +66,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 2px solid #666;
+  border: 2px solid #000000;
 }
 
 .presente-item:hover {
@@ -81,14 +81,14 @@
 
 .presente-info h4 {
   margin: 0 0 10px 0;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 1.2em;
   font-weight: 600;
 }
 
 .presente-info .preco {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 1.1em;
   margin: 5px 0;
