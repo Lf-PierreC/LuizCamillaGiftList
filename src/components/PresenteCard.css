@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 .presente-card {
-    width: 50%;
+    width: 70%;
+    height: 90%;
     margin: auto;
     margin-bottom: 100px;
     display: flex;
@@ -18,7 +19,7 @@
 }
 
 .presente-card:hover {
-    width: 52%;
+    width: 72%;
 }
 
 .presente-card h1 {
@@ -31,7 +32,7 @@
     margin-top: 0px;
     padding: 30px 0px;
     padding-bottom: 0px;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 200;
 }
 
@@ -86,7 +87,7 @@
 .preco {
     text-align: center;
     font-family: "Cormorant SC", serif;
-    font-size: 1.8em;
+    font-size: 3em;
     color: black;
     font-weight: 600;
     margin: 10px 0;
@@ -103,7 +104,7 @@
         width: 82%;
     }
     
-    .presente-card h3 {
+    .presente-card h1 {
         font-size: 1.6em;
         padding: 20px 0px;
     }
@@ -120,6 +121,7 @@
 @media screen and (max-width: 480px) {
     .presente-card {
         width: 90%;
+        height: 17em;
         margin-bottom: 60px;
     }
     
@@ -127,9 +129,10 @@
         width: 92%;
     }
     
-    .presente-card h3 {
-        font-size: 1.4em;
+    .presente-card h1 {
+        font-size: 1.2em;
         padding: 15px 0px;
+        height: 1.2em;
     }
     
     .presente-card .descricao {
@@ -137,10 +140,40 @@
     }
     
     .imgGift {
-        height: 12em;
+        height: 7em;
     }
     
     .preco {
         font-size: 1.5em;
+    }
+
+    .statusGiftContainer p {
+    font-family: "Comfortaa", serif;
+    font-size: .8em;
+    font-weight: 200;
+    padding: 2px;
+    margin: 0;
+    }
+
+    .statusGiftTrue {
+        width: 70%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        color: white;
+        background-color: rgb(81, 161, 81);
+        border-radius: 0 10px 0 10px; 
+        text-align: center;
+    }
+
+    .statusGiftFalse {
+        width: 70%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        color: white;
+        background-color: rgb(173, 165, 48);
+        border-radius: 0 10px 0 10px; 
+        text-align: center;
     }
 } 

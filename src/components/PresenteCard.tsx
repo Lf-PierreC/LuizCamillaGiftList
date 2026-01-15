@@ -18,7 +18,7 @@ export default function PresenteCard({ presente }: PresenteCardProps) {
   const handleClick = () => {
     // Redireciona para a loja com o nome do presente na busca
     const searchTerm = encodeURIComponent(presente.nome);
-    window.open(`https://loja.infinitepay.io/theguicosta?search=${searchTerm}`, '_blank');
+    window.open(`https://loja.infinitepay.io/luiz_camilla?search=${searchTerm}`, '_blank');
   };
 
   return (

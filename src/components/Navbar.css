@@ -19,13 +19,13 @@
 .item {
     margin-right: 1em;
     font-family: "Cormorant SC", serif;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 .item-login {
     margin-right: 0;
     font-family: "Cormorant SC", serif;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 .item-login a {
@@ -46,4 +46,14 @@
 
 .item a:hover {
     color: #9c9c9c;
+}
+
+@media screen and (max-width: 480px) {
+    .item {
+        font-size: 1.3em;
+    }
+
+    .item-login {
+        font-size: 1.3em;
+    }
 }
