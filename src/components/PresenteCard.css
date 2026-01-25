@@ -32,7 +32,7 @@
     margin-top: 0px;
     padding: 30px 0px;
     padding-bottom: 0px;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 200;
 }
 
@@ -87,7 +87,7 @@
 .preco {
     text-align: center;
     font-family: "Cormorant SC", serif;
-    font-size: 3em;
+    font-size: 2em;
     color: black;
     font-weight: 600;
     margin: 10px 0;
